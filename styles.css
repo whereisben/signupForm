@@ -1,0 +1,143 @@
+/* * {
+    outline: solid red
+} */
+
+body {
+    display: flex;
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #f9fafb;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+}
+
+
+.left {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.form {
+    flex: 1 1 0;
+}
+
+.footer {
+    flex: 1 1 0;
+}
+
+.side-bar {
+    height: 100%;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+.banner {
+    position: relative;
+    z-index: 2;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.logo-text {
+    color: white;
+    font-size: 40px;
+}
+
+fieldset {
+    border: 0px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    flex-direction: column;
+    display: flex;
+    padding: 16px 0px 24px 36px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+}
+
+fieldset h2 {
+    margin-bottom: 16px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    width: 25%;
+}
+
+input {
+    border-radius: 4px;
+    border: 2px solid #E5E7EB;
+    padding: 4px;
+    width: 100%;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+    border: 2px solid rgba(163, 181, 234);
+    outline: none;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid rgba(233, 183, 183);
+}
+
+form button {
+    background-color: #596D48;
+    color: white;
+    border: 0px;
+    padding: 12px 40px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 8px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.log-in {
+    margin-left: 36px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
+}
+
